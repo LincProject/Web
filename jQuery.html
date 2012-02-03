@@ -1,0 +1,84 @@
+<html>
+
+<head>
+	<title>jQuery Browser Compatibility</title>
+</head>
+
+<!--         Include Most Recent jQuery Library File           -->
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+
+<script type="text/javascript">
+ 
+	$(document).ready(function()
+	{
+		// Test Browser
+		
+		if($.browser.msie)
+		{
+			$("#Browser").html("Microsoft Internet Explorer");
+		}
+		else if ($.browser.chrome)
+		{
+			$("#Browser").html("Google Chrome");
+		}
+		else if ($.browser.webkit)
+		{
+			$("#Browser").html("Webkit");
+		}
+		else if ($.browser.mozilla)
+		{
+			$("#Browser").html("Mozilla Firefox");
+		}
+		else if ($.browser.opera)
+		{
+			$("#Browser").html("Opera, Opera Software");
+		}
+		else
+		{
+			$("#Browser").html("Browser not recognised");
+		}
+		
+		$("#Version").html("Version : " + $.browser.version);
+		
+		// Apply compatibility statment
+		
+		$("#cStatus").html("Your Browser is compatible with jQuery");
+
+	});
+ 
+</script>
+
+
+<body>
+
+	<h1>Test for Browser jQuery Compatibility</h1>
+	<hr>
+	
+	<h3>You are using</h3>
+	
+	<div id="Browser">Your browser doesn't support jQuery</div>
+	
+	<div id="Version"></div>
+	
+	<h3>Compatibility Status</h3>
+	
+	<div id="cStatus"></div>
+	
+	<hr>
+	
+	<h3>References</h3>
+	
+	<ul>
+		<li>http://webhole.net/2010/07/07/browser-detection-with-jquery/ [24.01.12]</li>
+		<li>http://www.tutorials2learn.com/2010/10/scripts/detect-browser-version-jquery/ [24.01.12]</li>
+	</ul>
+	
+	<hr>
+	<p>
+		Adam Lighton<br />
+		Multi-Mind Group Project 2012
+	</p>
+	
+</body>
+
+</html>

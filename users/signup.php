@@ -1,4 +1,12 @@
 <?php	
+      /*
+    	***** This code/Page has been written by Phillip Heels
+    	***** Whom, holds all the rights to this file.
+    	***** None of code OR content can be used without his/her permission.
+    	**** -- Unless: For open source purposes. 
+    
+    
+    */
     include ('../includes/classes/Page.php');  
     include ('../includes/classes/Account.php');
     include ('../includes/classes/Connect.php');

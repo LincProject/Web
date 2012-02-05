@@ -1,5 +1,4 @@
 <?php
-  session_destroy();
   include ('includes/classes/Page.php');
   include ('includes/classes/Account.php');
   $portal = new Page('MultiMind - Portal', 'header');

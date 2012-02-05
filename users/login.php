@@ -1,0 +1,42 @@
+<?php 
+   if(isset($_POST['submitted']))
+   {
+   	  include ('../includes/classes/Connect.php');
+      include ('../includes/classes/Account.php');
+      
+   	  $conn = new Connect('localhost', 'multimin_admin2', 'donkeykong101', 'multimin_mindmap');
+   	  $user = new Account();
+   	  
+   	  $username = $_POST['username'];
+   	  $password = $_POST['password'];
+   	  
+   	  $user->_username($username);
+   	  $user->_password($password);
+   	  
+   	  if($user->_errors())
+      {
+        $errors = $user->show_errors();
+        
+        echo '<b><font color="red">There are some errors:</font></b>';
+        
+        foreach($errors AS $error)
+        {
+           echo '<li>' .$error. '</li>';
+        } 
+        form();  
+      }
+      
+      if($user->_login())
+      {
+         echo 'Yes';
+      }else{
+        echo 'Wrong username or password';
+      }
+   	  
+   }else{
+   	echo 'Submitted in an error';
+   }    
+ 
+ 
+
+?>

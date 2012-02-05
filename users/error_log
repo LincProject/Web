@@ -1,0 +1,152 @@
+[02-Feb-2012 19:52:04] PHP Warning:  include(includes/classes/Page.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:52:04] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Page.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:52:04] PHP Fatal error:  Class 'Page' not found in /home/multimin/public_html/users/login.php on line 3
+[02-Feb-2012 19:52:19] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:20] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:20] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:21] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:21] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:37] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:37] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:45] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:52:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:03] PHP Warning:  include(includes/classes/Page.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:53:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Page.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:53:03] PHP Fatal error:  Class 'Page' not found in /home/multimin/public_html/users/login.php on line 5
+[02-Feb-2012 19:53:05] PHP Warning:  include(includes/classes/Page.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:53:05] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Page.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 2
+[02-Feb-2012 19:53:05] PHP Fatal error:  Class 'Page' not found in /home/multimin/public_html/users/login.php on line 5
+[02-Feb-2012 19:53:10] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:10] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:16] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:16] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:17] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:53:17] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:55:54] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:55:54] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:55:55] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 19:55:55] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:34:03] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:34:03] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:38:56] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:38:56] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:40:45] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:40:45] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:48:07] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[02-Feb-2012 20:48:07] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:40:21] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:40:21] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:40:28] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:40:28] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:41:16] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:41:16] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:41:21] PHP Warning:  include(0) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:41:21] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '0' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Page.php on line 75
+[03-Feb-2012 03:59:30] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:30] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:31] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:32] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:33] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:33] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 03:59:57] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 04:00:01] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/login.php on line 3
+[03-Feb-2012 04:08:14] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:15] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:15] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:16] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:16] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:18] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:19] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:08:52] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:08:52] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:08:53] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:08:53] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:08:53] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:16] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:18] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:18] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:18] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:19] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:19] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:19] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:25] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:31] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:31] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:09:32] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:10:05] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:10:30] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:10:33] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:11:27] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:11:29] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 29
+[03-Feb-2012 04:11:50] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:11:54] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[03-Feb-2012 04:14:39] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[04-Feb-2012 19:54:58] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 28
+[04-Feb-2012 19:55:52] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:55:54] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:55:54] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:55:55] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:16] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:17] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:40] PHP Parse error:  syntax error, unexpected $end in /home/multimin/public_html/users/login.php on line 30
+[04-Feb-2012 19:56:57] PHP Warning:  include(includes/classes/Connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 3
+[04-Feb-2012 19:56:57] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 3
+[04-Feb-2012 19:56:57] PHP Warning:  include(includes/classes/Account.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 4
+[04-Feb-2012 19:56:57] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Account.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 4
+[04-Feb-2012 19:56:57] PHP Fatal error:  Class 'Connect' not found in /home/multimin/public_html/users/login.php on line 8
+[04-Feb-2012 19:56:59] PHP Warning:  include(includes/classes/Connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 3
+[04-Feb-2012 19:56:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 3
+[04-Feb-2012 19:56:59] PHP Warning:  include(includes/classes/Account.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/users/login.php on line 4
+[04-Feb-2012 19:56:59] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'includes/classes/Account.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/users/login.php on line 4
+[04-Feb-2012 19:56:59] PHP Fatal error:  Class 'Connect' not found in /home/multimin/public_html/users/login.php on line 8
+[04-Feb-2012 20:42:49] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home/multimin/public_html/users/signup.php on line 15
+[04-Feb-2012 20:53:25] PHP Fatal error:  Call to undefined method Account::_checkPass() in /home/multimin/public_html/users/signup.php on line 38
+[04-Feb-2012 20:57:18] PHP Warning:  preg_match() expects at least 2 parameters, 1 given in /home/multimin/public_html/includes/classes/Account.php on line 44
+[04-Feb-2012 20:59:20] PHP Warning:  preg_match() expects at least 2 parameters, 1 given in /home/multimin/public_html/includes/classes/Account.php on line 44
+[04-Feb-2012 21:08:42] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/signup.php on line 42
+[04-Feb-2012 21:08:44] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/multimin/public_html/users/signup.php on line 42
+[04-Feb-2012 21:13:10] PHP Fatal error:  Using $this when not in object context in /home/multimin/public_html/users/signup.php on line 47
+[04-Feb-2012 21:13:28] PHP Warning:  Invalid argument supplied for foreach() in /home/multimin/public_html/users/signup.php on line 47
+[04-Feb-2012 21:21:55] PHP Parse error:  syntax error, unexpected ')' in /home/multimin/public_html/includes/classes/Account.php on line 17
+[04-Feb-2012 21:32:56] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier '+' in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:33:50] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:34:00] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier '+' in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:34:43] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:36:05] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: No ending delimiter '^' found in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:36:15] PHP Warning:  preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Unknown modifier '+' in /home/multimin/public_html/includes/classes/Account.php on line 39
+[04-Feb-2012 21:49:49] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'multimin'@'localhost' (using password: NO) in /home/multimin/public_html/includes/classes/Account.php on line 95
+[04-Feb-2012 21:49:49] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 95
+[04-Feb-2012 21:49:49] PHP Warning:  mysql_affected_rows() [<a href='function.mysql-affected-rows'>function.mysql-affected-rows</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 96
+[04-Feb-2012 21:51:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'multimin'@'localhost' (using password: NO) in /home/multimin/public_html/includes/classes/Account.php on line 101
+[04-Feb-2012 21:51:23] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 101
+[04-Feb-2012 21:51:23] PHP Warning:  mysql_affected_rows() [<a href='function.mysql-affected-rows'>function.mysql-affected-rows</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 102
+[04-Feb-2012 21:53:38] PHP Fatal error:  Cannot redeclare class Connect in /home/multimin/public_html/includes/classes/Connect.php on line 3
+[04-Feb-2012 21:53:41] PHP Fatal error:  Cannot redeclare class Connect in /home/multimin/public_html/includes/classes/Connect.php on line 3
+[04-Feb-2012 21:56:23] PHP Notice:  Table 'multimin_mindmap.Accous' doesn't exist in /home/multimin/public_html/includes/classes/Account.php on line 96
+[04-Feb-2012 21:56:38] PHP Notice:  Column count doesn't match value count at row 1 in /home/multimin/public_html/includes/classes/Account.php on line 96
+[04-Feb-2012 21:57:34] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@googlemail.com, MD5(abc123), NOW())' at line 1 in /home/multimin/public_html/includes/classes/Account.php on line 96
+[04-Feb-2012 21:59:09] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', NOW())' at line 1 in /home/multimin/public_html/includes/classes/Account.php on line 96
+[04-Feb-2012 22:02:02] PHP Fatal error:  Call to undefined function uniqueid() in /home/multimin/public_html/includes/classes/Account.php on line 120
+[04-Feb-2012 22:18:17] PHP Fatal error:  Call to a member function _password() on a non-object in /home/multimin/public_html/users/login.php on line 22
+[04-Feb-2012 22:22:26] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''(abc123)'' at line 1 in /home/multimin/public_html/includes/classes/Account.php on line 118
+[04-Feb-2012 22:23:09] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home/multimin/public_html/includes/classes/Account.php on line 118
+[04-Feb-2012 22:23:34] PHP Notice:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''' at line 1 in /home/multimin/public_html/includes/classes/Account.php on line 119
+[04-Feb-2012 22:27:40] PHP Fatal error:  Using $this when not in object context in /home/multimin/public_html/users/login.php on line 49
+[04-Feb-2012 22:39:56] PHP Fatal error:  Call to undefined function _checkUsername() in /home/multimin/public_html/includes/classes/Account.php on line 23
+[04-Feb-2012 22:40:37] PHP Fatal error:  Call to undefined method Account::_checkUsername() in /home/multimin/public_html/includes/classes/Account.php on line 23
+[04-Feb-2012 22:52:12] PHP Fatal error:  Cannot access empty property in /home/multimin/public_html/includes/classes/Account.php on line 28
+[04-Feb-2012 22:55:05] PHP Parse error:  syntax error, unexpected '{' in /home/multimin/public_html/includes/classes/Account.php on line 49
+[04-Feb-2012 23:03:22] PHP Parse error:  syntax error, unexpected '&' in /home/multimin/public_html/includes/classes/Account.php on line 140
+[04-Feb-2012 23:21:58] PHP Parse error:  syntax error, unexpected T_ELSE, expecting T_FUNCTION in /home/multimin/public_html/includes/classes/Account.php on line 46
+[04-Feb-2012 23:22:06] PHP Parse error:  syntax error, unexpected T_ELSE, expecting T_FUNCTION in /home/multimin/public_html/includes/classes/Account.php on line 46
+[04-Feb-2012 23:22:08] PHP Parse error:  syntax error, unexpected T_ELSE, expecting T_FUNCTION in /home/multimin/public_html/includes/classes/Account.php on line 46
+[04-Feb-2012 23:22:22] PHP Parse error:  syntax error, unexpected T_ELSE, expecting T_FUNCTION in /home/multimin/public_html/includes/classes/Account.php on line 46
+[05-Feb-2012 00:13:04] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/multimin/public_html/includes/classes/Account.php on line 147
+[05-Feb-2012 00:14:37] PHP Parse error:  syntax error, unexpected T_PUBLIC in /home/multimin/public_html/includes/classes/Account.php on line 147

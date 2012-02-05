@@ -1,4 +1,7 @@
 <?php
+  // Code written by Adam : 2/2/2012
+  include ('includes/classes/Page.php');
+  $contact = new Page('MultiMind - Contact Us', 'header');  
 
 // If a Email Address was entered.
 if(isset($_POST['EmailFrom']))
@@ -110,12 +113,6 @@ if(isset($_POST['EmailFrom']))
 <?php
 }
 ?>
-
-<?php
-  include ('includes/classes/Page.php');
-  $contact = new Page('MultiMind :: Thankyou for your enquiry', 'header');
-?>
-
 <div class="grid_1">
 
 	<h1>Thankyou!</h1>

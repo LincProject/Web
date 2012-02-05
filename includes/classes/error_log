@@ -1,0 +1,4 @@
+[03-Feb-2012 00:54:52] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/multimin/public_html/includes/classes/Account.php on line 22
+[03-Feb-2012 00:54:52] PHP Parse error:  syntax error, unexpected ')' in /home/multimin/public_html/includes/classes/Account.php on line 22
+[03-Feb-2012 00:54:53] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/multimin/public_html/includes/classes/Account.php on line 22
+[03-Feb-2012 00:54:53] PHP Parse error:  syntax error, unexpected ')' in /home/multimin/public_html/includes/classes/Account.php on line 22

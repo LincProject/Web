@@ -1,6 +1,6 @@
 <?php
   include ('includes/classes/Page.php');
-  $contact = new Page('MultiMind :: Contact Us', 'header');
+  $contact = new Page('MultiMind - Contact Us', 'header');
 ?>
 
 <div class="grid_1">
@@ -12,7 +12,7 @@
 		Fields marked with a * are mandatory.
 	</p>
 
-	<form id="ContactForm" name="ContactForm" method="post" action="ProcessContact.php">
+	<form id="ContactForm" name="ContactForm" method="post" action="processContact.php">
 
 		<p>
 			<label for="Name">Your Name *</label><br />

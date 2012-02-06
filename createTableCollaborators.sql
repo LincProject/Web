@@ -1,9 +1,9 @@
 
 CREATE TABLE Collaborators
 (
-	collaboration_id	int,
-	user_id				int,
-	map_id				int,
+	collaboration_id	INT NOT NULL AUTO_INCREMENT,,
+	user_id				INT,
+	map_id				INT,
 	privileges 			varchar(255),
 	
 	PRIMARY KEY(collaboration_id),

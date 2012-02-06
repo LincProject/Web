@@ -1,7 +1,7 @@
 
 CREATE TABLE Node
 (
-	node_id		INT,
+	node_id		INT NOT NULL AUTO_INCREMENT,
 	map_id		INT,
 	created_by	INT,
 	position_x	DOUBLE,

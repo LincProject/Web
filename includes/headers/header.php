@@ -29,6 +29,15 @@ session_start();
 
 <script>
 $(document).ready(function () {
+
+/*  Re-direct user if they are using "Internet Explorer" to "http://www.multimind.lincoln.ac.uk/unsupported.html"
+ *  as this web application does not render or function correctly in this browser. (Ref: AL)
+ */
+if($.browser.msie)
+{
+	window.location.replace("http://www.multimind.lincoln.ac.uk/unsupported.html");
+}
+
 $('.userBar').click(function () {
                                       
   if($('#user').is(":visible")) {
@@ -134,5 +143,3 @@ $('.masting').draggable({ cancel: 'button' });
  
 ?>
 </div>
-
-

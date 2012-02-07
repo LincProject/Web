@@ -93,7 +93,7 @@
         }
       	// In here, you should change the password USING UPDATE to a new temp password (provided)
       	
-        $temp_password = substr(md5(uniqid(rand(), 1)), 3, 10); // This is the new password
+        $temp_password = substr(md5(uniqid(rand(), 1)), 3, 10);
         
         // use something like this:
         // $update = "UPDATE Accounts SET password=md5('$temp_password') WHERE email='$e'

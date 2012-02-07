@@ -36,14 +36,23 @@ if(!isset($_SESSION['user_id']))
 
 <script>
 $(document).ready(function () {
-$('.chat').click(function () {
- if($('#chat').is(":visible")) {
-  alert ('Chat is visible');
- }
-  
+$('.chatLink').click(function () {
+                                      
+  if($('#chatBox').is(":visible")) {
+    $('#chatBox').toggle();
+}else{
+  $('#chatBox').show();
+}
+});
+
+$('#chatInput').keydown(function(){
  
+		alert('Your message has been sent (EXAMPLE)');	
+
 });
+//$('#chatBox').draggable({ cancel: 'button' });
 });
+
 </script>
 
 
@@ -73,10 +82,9 @@ $('.chat').click(function () {
  	<div id="container">
 	</div>
 	
-<div id="chat">
-</div>
 <div id="footer">
-<a href="#" class="chat">Messages (400)</a>
+<a href="#" class="chatLink">Messages (#counter)</a>
 
 </div>
+
 

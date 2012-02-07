@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	
+	<script type="text/javascript">
+ 
+	$(document).ready(function()
+	{
+		// Test Browser
+		
+		if($.browser.msie)
+		{
+			$("#Browser").html("Microsoft Internet Explorer");
+		}
+			else if ($.browser.chrome)
+			{
+				$("#Browser").html("Google Chrome");
+			}
+				else if ($.browser.webkit)
+				{
+					$("#Browser").html("Webkit");
+				}
+					else if ($.browser.mozilla)
+					{
+						$("#Browser").html("Mozilla Firefox");
+					}
+						else if ($.browser.opera)
+						{
+							$("#Browser").html("Opera, Opera Software");
+						}
+							else
+							{
+								$("#Browser").html("Browser not recognised");
+							}
+		
+		$("#Version").html($.browser.version);
+
+	});
+ 
+</script>
+
+<style>
+@charset "utf-8";
+
+/*  Layout Styles  */
+
+#Wrapper
+{
+	position:relative;
+	height:em;
+	width:940px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#Header
+{
+	position:relative;
+	float:left;
+	left:00px;
+	height:em;
+	width:930px;
+	background:black;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:10px;
+}
+#Body
+{
+	position:relative;
+	float:left;
+	left:00px;
+	height:em;
+	width:920px;
+	margin-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.HeaderText
+{
+	font-size:20px;
+	color:white;
+}
+</style>
+	
+</head>
+
+<body bgcolor="#AFC7C7">
+
+	<div id="Wrapper">
+		
+		<div id="Header" class="HeaderText">
+			MultiMind
+		</div>
+		
+		<div id="Body">
+			
+			<h1>There appears to be a problem.</h1>
+	
+			<p>MultiMind has detected you are using a browser that does not support this web application.</p>
+			
+			<b>Details</b>
+			
+			<p>
+				Your current browser : <a id="Browser">Browser not found.</a><br />
+				Your browsers version : <a id="Version">Version not found.</a>
+			</p>
+			
+			<b>Resolution</b>
+			
+			<p>To use this web application please install an up-to-date web browser. Below we have provided some sources,
+			   which we recommend.</p>
+			
+			<ul>
+				<li><a href="http://www.google.com/chrome">Google Chrome</a></li>
+				<li><a href="http://www.mozilla.org/en-US/firefox/">Mozilla Firefox</a></li>
+			</ul>
+			
+			<b>Still encountering problems?</b>
+			
+			<p>If you are still encountering problems, please visit our 
+			<a href="http://www.multimind.lincoln.ac.uk/contact">Contact Us</a> pages for more assistance.
+			
+		</div>
+		
+		<hr>
+		
+	</div>
+	
+</body>
+
+</html>

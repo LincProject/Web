@@ -30,10 +30,30 @@
 	<li><a href="https://github.com/LincProject/Web/blob/master/index.php">index.php</a></li>
 	<li><a href="https://github.com/LincProject/Web/blob/master/users/login.php">login.php</a></li>
 	<li><a href="https://github.com/LincProject/Web/blob/master/users/signup.php">signup.php</a></li>
+	<li><a href="https://github.com/LincProject/Web/blob/master/map/create_div.php">create_div.php</a></li>
+	<li><a href="https://github.com/LincProject/Web/blob/master/map/test_chat.php">test_chat.php</a></li>
+	<li><i>Also worked on: <a href="https://github.com/LincProject/Web/blob/master/users/forgot.php">forgot.php</a></i></i></li>
 </ul>
 <h3>Adam Lighton</h3>
+<ul>
+  <li><a href="https://github.com/LincProject/Web/blob/master/ProcessContact.php">process_contact.php</a></li>
+  <li><a href="https://github.com/LincProject/Web/blob/master/contact.php">contact.php</a></li>
+  <li><a href="https://github.com/LincProject/Web/blob/master/unsupported.html">unsupported.html</a></li>
+</ul>
 <h3>Chirag Tailor</h3>
+<ul>
+  <li>No work submitted yet.</li>
+</ul>
 <h3>Andrzej Kalach</h3>
+<ul>
+  <li>No work submitted yet.</li>
+</ul>
 <h3>Matt Hayne</h3>
+<ul>
+  <li>No work submitted yet.</li>
+</ul>
 <h3>Daniel Allison </h3>
+<ul>
+  <li>No work submitted yet.</li>
+</ul>
 </div>

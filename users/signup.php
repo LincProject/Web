@@ -8,9 +8,7 @@
     
     */
     include ('../includes/classes/Page.php');  
-    include ('../includes/classes/Account.php');
-    include ('../includes/classes/Connect.php');
-    
+    include ('../includes/classes/Account.php');    
     $page = new Page('MultiMind - Create an Account', 'header');
 ?>
 <div class="grid_1">
@@ -30,9 +28,7 @@
   	 $acc->_registerForm();
      
   }else{
-    
    
-    $conn = new Connect('localhost', 'multimin_admin2', 'donkeykong101', 'multimin_mindmap');
     $acc->_username($_POST['username']); // set the username
     $acc->_email($_POST['email']); // set the email
     
@@ -47,10 +43,9 @@
         
         echo '<b><font color="red">There are some errors:</font></b>';
         
-        foreach($errors AS $error)
-        {
-           echo '<li>' .$error. '</li>';
-        } 
+        foreach($errors AS $error):
+         echo '<li>' .$error. '</li>';
+        endforeach;
         $acc->_registerForm();  
       
     }else{

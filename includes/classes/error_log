@@ -2,3 +2,7 @@
 [03-Feb-2012 00:54:52] PHP Parse error:  syntax error, unexpected ')' in /home/multimin/public_html/includes/classes/Account.php on line 22
 [03-Feb-2012 00:54:53] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/multimin/public_html/includes/classes/Account.php on line 22
 [03-Feb-2012 00:54:53] PHP Parse error:  syntax error, unexpected ')' in /home/multimin/public_html/includes/classes/Account.php on line 22
+[06-Feb-2012 16:40:47] PHP Parse error:  syntax error, unexpected ';' in /home/multimin/public_html/includes/classes/Account.php on line 100
+[06-Feb-2012 16:41:14] PHP Warning:  include(classes/Connect.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/multimin/public_html/includes/classes/Account.php on line 10
+[06-Feb-2012 16:41:14] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'classes/Connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/multimin/public_html/includes/classes/Account.php on line 10
+[06-Feb-2012 16:41:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/multimin/public_html/includes/classes/Account.php:10) in /home/multimin/public_html/includes/classes/Account.php on line 11

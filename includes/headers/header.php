@@ -124,7 +124,7 @@ $('.masting').draggable({ cancel: 'button' });
      	echo '<input type="password" name="password" id="password" placeholder="Password">';
      	echo '<button class="bttSign" type="button">Sign in</button>';
      	echo '<input type="hidden" id="submitted" name="submitted" value="TRUE" /><br /><br />';
-     	echo '<a href="users/signup" class="newUser">New to MultiMind?</a><br />';
+     	echo '<a href="http://multimind.lincoln.ac.uk/users/signup#" class="newUser">New to MultiMind?</a><br />';
      	echo '<a href="/users/forgot" class="forgot">Forgot your password?</a>';
      	echo '</form>';
   }else{

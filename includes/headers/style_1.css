@@ -11,6 +11,7 @@
 html, body
 {
 	background-color: #eaeaea;
+	height:100%;
 }
 p { 
  color:#000000;
@@ -385,6 +386,34 @@ border-bottom-color: red; border-bottom-left-radius: 3px; border-bottom-right-ra
 .alert {
 text-align:center;
 border-bottom-color: #F0AC41; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; border-bottom-style: solid; border-bottom-width: 1px; border-left-color: #F0AC41; border-left-style: solid; border-left-width: 1px; border-right-color: #F0AC41; border-right-style: solid; border-right-width: 1px; border-top-color: #F0AC41; border-top-left-radius: 3px; border-top-right-radius: 3px; border-top-style: solid; border-top-width: 1px;
-
 }
 
+html, body, #container { height: 100%; }
+
+body > #container { height: auto; min-height: 100%; }
+
+#footer {
+  left:0px;
+  clear: both;
+  position: fixed;
+  z-index: 10;
+  margin-top: -3em;
+  width: 100%;
+  height: 40px;
+  background: -moz-linear-gradient(center top, #333333, #111111);
+  background: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#111111));
+  background:  -o-linear-gradient(top, #333333, #111111);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#333333', EndColorStr='#111111');
+  box-shadow:0 1px 2px #666666;
+  -webkit-box-shadow: 0 1px 8px #666666;  
+}
+
+.chat {
+font-size: 13px;
+position: absolute;
+margin-top: 12px;
+margin-left: 865px;
+color: #BABABA;
+text-decoration: none;
+
+}

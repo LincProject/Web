@@ -440,3 +440,20 @@
 [05-Feb-2012 01:49:50] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 122
 [05-Feb-2012 01:49:50] PHP Warning:  mysql_affected_rows() [<a href='function.mysql-affected-rows'>function.mysql-affected-rows</a>]: A link to the server could not be established in /home/multimin/public_html/includes/classes/Account.php on line 123
 [05-Feb-2012 16:29:52] PHP Fatal error:  Cannot redeclare class Page in /home/multimin/public_html/includes/classes/Page.php on line 5
+[05-Feb-2012 21:36:52] PHP Fatal error:  Cannot redeclare class Page in /home/multimin/public_html/includes/classes/Page.php on line 11
+[05-Feb-2012 21:37:12] PHP Fatal error:  Cannot redeclare class Page in /home/multimin/public_html/includes/classes/Page.php on line 11
+[05-Feb-2012 23:30:07] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/multimin/public_html/break.php on line 16
+[05-Feb-2012 23:32:39] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:32:41] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:33:12] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:33:13] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:33:23] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:33:25] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 5
+[05-Feb-2012 23:39:15] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 3
+[05-Feb-2012 23:39:16] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home/multimin/public_html/break.php on line 3
+[06-Feb-2012 11:39:11] PHP Fatal error:  Call to undefined function session_destory() in /home/multimin/public_html/includes/headers/header.php on line 2
+[06-Feb-2012 11:39:11] PHP Fatal error:  Call to undefined function session_destory() in /home/multimin/public_html/includes/headers/header.php on line 2
+[06-Feb-2012 11:39:29] PHP Fatal error:  Call to undefined function session_destory() in /home/multimin/public_html/index.php on line 15
+[06-Feb-2012 11:39:30] PHP Fatal error:  Call to undefined function session_destory() in /home/multimin/public_html/index.php on line 15
+[06-Feb-2012 12:18:18] PHP Fatal error:  Cannot redeclare class Page in /home/multimin/public_html/includes/classes/Page.php on line 11
+[06-Feb-2012 12:54:04] PHP Fatal error:  Cannot redeclare class Page in /home/multimin/public_html/includes/classes/Page.php on line 11

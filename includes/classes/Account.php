@@ -7,7 +7,8 @@
     
     
     */
-session_start();
+ include ('/home/multimin/public_html/includes/classes/Connect.php');
+ session_start();
  class Account {
  
  	 protected $user_id;
@@ -17,12 +18,20 @@ session_start();
  	 protected $ativated;
  	 protected $date_registered;
  	 protected $error = array();
- 	  
+ 	 
+ 	 public function __construct()
+ 	 {
+ 		if(class_exists("Connect")):
+ 		  $conn = new Connect('localhost', 'multimin_admin2', 'donkeykong101', 'multimin_mindmap');
+ 		else:
+ 		 $this->error[] = 'Cannot define class (Connect)';
+ 		endif; 	
+ 	 }
  	 public function _username($theName)
  	 {
  	    if(empty($theName))
  	    {
- 	       $this->error[0] = 'You have not entered a username';
+ 	       $this->error[] = 'You have not entered a username';
  	       return false;
  	    }
  	   
@@ -31,7 +40,7 @@ session_start();
  	       $this->username = $theName;
  	       return true;
  	   }else{
- 	     $this->error[1] = 'Your username is not valid.';
+ 	     $this->error[] = 'Your username is not valid.';
  	   }
  	   
  	   return $theName;  
@@ -41,7 +50,7 @@ session_start();
  	 { 
  	    if(empty($theEmail))
  	    {
- 	       $this->error[2] = 'You have not entered your email address';
+ 	       $this->error[] = 'You have not entered your email address';
  	       return false;
  	    }
  	    
@@ -50,7 +59,7 @@ session_start();
  	       $this->email = $theEmail;
  	       return true;
  	    }else{
- 	      $this->error[3] = 'Your email address is not valid';
+ 	      $this->error[] = 'Your email address is not valid';
  	      return false;
  	    }
  	    
@@ -61,7 +70,7 @@ session_start();
  	 {
  	    if(empty($thePassword))
  	    {
- 	       $this->error[4] = 'You have not entered your password';
+ 	       $this->error[] = 'You have not entered your password';
  	       return false;	
  	    }else{
  	      $this->password = $thePassword;
@@ -76,8 +85,32 @@ session_start();
  	    {
  	      return true;
  	    }else{
- 	      $this->error[5] = 'Your passwords do not match';
+ 	      $this->error[] = 'Your passwords do not match';
  	    }
+ 	 
+ 	 }
+ 	 
+ 	 public function _getUserID($email)
+ 	 {
+ 	 	if(empty($email))
+ 	 	{
+ 	 	 	$this->error[] = 'You have not entered the users email address';
+ 	 	 	return false;
+ 	 	}else{
+ 	 	  $theId;
+ 	 	  $user_id = "SELECT account_id FROM Accounts WHERE email='$email'";
+ 	 	  $user_res = mysql_query($user_id);
+ 	 	  if(mysql_affected_rows() == 1)
+ 	 	  {
+ 	 	     $row = mysql_fetch_row($user_res);
+ 	 	     $userID = $row[0];
+ 	 	     return $userID; 	 	  
+ 	 	  }else{
+ 	 	    $this->error[] = 'Cannot match email address';
+ 	 	    return false;
+ 	 	  }
+ 	 	  
+ 	 	}
  	 
  	 }
  	 
@@ -136,7 +169,7 @@ session_start();
  	 	}
  	 
  	 }
- 	 
+ 	
  	 public function _forgotPassword($theEmail, $id="")
  	 {
  	 	if(empty($theEmail))
@@ -175,7 +208,7 @@ session_start();
   	 	echo '<input type="password" name="password2" class="rounded"><br />';
   	 	echo '<input type="submit" name="submit" id="submit" class="registerBttn" value="Sign up!">';
   	 	echo '<input type="hidden" name="submitted" value="TRUE">';
-  	 	echo '<input type="submit" name="reset" class="registerBttn" value="Reset!">';
+  	 	echo '<input type="reset" name="reset" class="registerBttn" value="Reset!">';
   
   	}
   	
@@ -201,7 +234,10 @@ session_start();
  	    if(mysql_affected_rows() == 1)
  	    {
  	       $activation = md5(uniqid(rand(), true));
- 	       $email = "Hello, $this->username!\n\n Thank you for signing up to MultiMind. Now that you're a member, you can sign into the site and use all the cool features that we have to offer. Please note that some 				    of the features may not work until you have activated your account (For security reasons!) It's simple to do though! Just click on the link contained in this email.\n http://										multimind.lincoln.ac.uk/users/activate.php?id=" .mysql_insert_id(). "&y=$activation We hope you enjoy your time here, and you do not encounter any problems whilst using our services. If however you do, 					you can use our contact page at: http://multimind.lincoln.ac.uk/contact\n\n Thanks again, Phillip (Head Programmer)\n\n\n DO NOT reply to this email, otherwise, you'll be waiting a long time for 					a reply ;)";
+ 	       $email = "Hello, $this->username!\n\n Thank you for signing up to MultiMind. Now that you're a member, you can sign into the site and use all the cool features that we have to offer. Please note that
+ 	                 some of the features may not work until you have activated your account (For security reasons!) It's simple to do though! Just click on the link contained in this email.\n http://								 multimind.lincoln.ac.uk/users/activate.php?id=" .mysql_insert_id(). "&y=$activation We hope you enjoy your time here, and you do not encounter any problems whilst using our services. If 	
+ 	                 however you do, you can use our contact page at: http://multimind.lincoln.ac.uk/contact\n\n Thanks again, Phillip (Head Programmer)\n\n\n DO NOT reply to this email, otherwise, you'll be 
+ 	                 waiting a long time for a reply ;)";
  	     
  	       mail($this->email, 'From: accounts@multimind.lincoln.ac.uk', 'Welcome to MultiMind', $email);
  	       return true;
@@ -217,8 +253,6 @@ session_start();
  	 	{
  	 		echo 'You haven\'t entered your username/password';
  	 	}
- 	 	
- 	 	
  	 	$signin = "SELECT account_id, email, username, password FROM Accounts WHERE username='$this->username' AND password=md5('$this->password')";
  	 	$result = mysql_query($signin) or trigger_error(mysql_error());
  	 	if(mysql_affected_rows() == 1)

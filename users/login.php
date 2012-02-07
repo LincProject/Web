@@ -9,10 +9,8 @@
     */
    if(isset($_POST['submitted']))
    {
-   	  include ('../includes/classes/Connect.php');
       include ('../includes/classes/Account.php');
       
-   	  $conn = new Connect('localhost', 'multimin_admin2', 'donkeykong101', 'multimin_mindmap');
    	  $user = new Account();
    	  
    	  $username = $_POST['username'];
